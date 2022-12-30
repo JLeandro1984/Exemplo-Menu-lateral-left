@@ -1,6 +1,6 @@
-@import url('https://fonts.googlepis.com/css2?family=Poppins:wght@300&display=swap');
- 
-*{
+@import url("https://fonts.googlepis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,11 +20,11 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
 .left-menu:hover {
-width: 13rem;
+  width: 13rem;
 }
 
 .left-menu ul li a {
@@ -43,12 +43,12 @@ width: 13rem;
 }
 
 .logo img {
-  width: 100%;
+  width: 55%;
   z-index: 100;
-  position:absolute;  
+  position: absolute;
 }
 
-.logo span{
+.logo span {
   font-weight: bold;
   padding: 10px;
   font-size: 18px;
@@ -65,23 +65,23 @@ width: 13rem;
   width: 300px;
   text-decoration: none;
   padding: 10px;
-  font-family: 'Poppins','sans-serif';
+  font-family: "Poppins", "sans-serif";
 }
 
 .left-menu ul {
   margin-top: 2rem;
   margin-left: 1.5rem;
-  display: flex;  
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 ul li {
-  font-family: 'Poppins','sans-serif';
+  font-family: "Poppins", "sans-serif";
   list-style: none;
   margin-bottom: 1rem;
   align-items: center;
-  transition: all .3s linear;  
+  transition: all 0.3s linear;
 }
 
 ul li a {
@@ -95,7 +95,7 @@ ul li a i {
   color: #7410f0;
   font-size: 1.4rem;
   cursor: pointer;
-  transition: all .3s linear;
+  transition: all 0.3s linear;
   margin-right: 1.2rem;
 }
 
@@ -111,11 +111,12 @@ ul li a i {
 }
 
 .left-menu ul li:hover {
-  transform: translateX(.4rem);
-  transition: all .4s linear;
+  transform: translateX(0.4rem);
+  transition: all 0.4s linear;
 }
 
-.left-menu ul li:hover .fa-solid, .left-menu ul li:hover a {
+.left-menu ul li:hover .fa-solid,
+.left-menu ul li:hover a {
   font-weight: bold;
   color: purple;
 }
